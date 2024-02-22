@@ -1,0 +1,14 @@
+Baseline Features and No Cleaning
+Accuracy: 0.8512
+Precision: 0.5000
+Recall: 0.0200
+F1: 0.0385
+AUC: 0.5083
+
+Added age validation, Year_Birth and Dt_Customer validation, and quantified Dt_Customer
+Features: MntFishProducts', 'MntMeatProducts', 'MntFruits', 'MntSweetProducts', 'MntWines', 'MntGoldProds
+Accuracy: 0.8646
+Precision: 0.5652
+Recall: 0.3900
+F1: 0.4615
+AUC: 0.6688
