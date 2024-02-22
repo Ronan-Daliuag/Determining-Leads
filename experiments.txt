@@ -6,7 +6,10 @@ F1: 0.0385
 AUC: 0.5083
 
 Added age validation, Year_Birth and Dt_Customer validation, and quantified Dt_Customer
-Features: MntFishProducts', 'MntMeatProducts', 'MntFruits', 'MntSweetProducts', 'MntWines', 'MntGoldProds
+Features: ['Income', 'Kidhome', 'Teenhome', 'Recency', 'MntWines', 'MntFruits', 
+'MntMeatProducts', 'MntFishProducts', 'MntSweetProducts', 'MntGoldProds', 'NumDealsPurchases', 'NumWebPurchases', 'NumCatalogPurchases',
+'NumStorePurchases', 'NumWebVisitsMonth', 'Complain', 'Age', 'Year Of Enrollment', 'Month Of Enrollment', 'Day Of Enrollment']
+Algorithm: Logistic Regression w/ Standard Scaler
 Accuracy: 0.8646
 Precision: 0.5652
 Recall: 0.3900

@@ -1,0 +1,19 @@
+Dataset:
+1. Learn on relationship of big spenders on Mnt Objects to Response (Note: might be data leakage, have to ask)
+2. ^^ but on NumVisits
+3. Learn on relationship between income and MntObjects/NumVisits
+4. Relationsip of Recency to Response
+5. Relationship of Kidhome Teenhome to Response
+6. Since the discount offer is 499$ instead of 999$, look for a relationship of spenders whose income is in the alleyway of
+499 to 999$. 
+
+Code:
+1. Learn how to code these models
+Logistic Regression
+Naive Bayes
+Decision Trees
+k Nearest Neighbors
+SVM
+
+2. Additional insight on business
+
