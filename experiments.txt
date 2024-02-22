@@ -15,3 +15,12 @@ Precision: 0.5652
 Recall: 0.3900
 F1: 0.4615
 AUC: 0.6688
+
+
+Added normalized incomes and age (Both 95%)
+Same Features and Algorithm
+Accuracy: 0.8883
+Precision: 0.6786
+Recall: 0.2468
+F1: 0.3619
+AUC: 0.6148
