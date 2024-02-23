@@ -4,7 +4,7 @@ Dataset:
 3. Learn on relationship between income and MntObjects/NumVisits
 4. Relationsip of Recency to Response
 5. Relationship of Kidhome Teenhome to Response
-
+6. Encode Marital_Status and Education
  
 
 Code:
