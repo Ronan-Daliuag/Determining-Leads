@@ -32,3 +32,21 @@ Precision: 0.6786
 Recall: 0.2468
 F1: 0.3619
 AUC: 0.6148
+
+Added overfitting metric to previous results. 
+Accuracy: 0.8883
+Precision: 0.6786
+Recall: 0.2468
+F1: 0.3619
+AUC: 0.6148
+Training set score: 0.8798
+Test set score: 0.1300
+
+Adjusted test_size to 0.5 and removed stratify
+Accuracy: 0.8909
+Precision: 0.6610
+Recall: 0.3047
+F1: 0.4171
+AUC: 0.6409
+Training set score: 0.8869
+Test set score: 0.1321
