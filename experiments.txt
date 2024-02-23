@@ -24,3 +24,11 @@ Precision: 0.6786
 Recall: 0.2468
 F1: 0.3619
 AUC: 0.6148
+
+Added function to standardize status (only include Single Married Divorced Together Widow)
+Same Features and Algorithm
+Accuracy: 0.8883
+Precision: 0.6786
+Recall: 0.2468
+F1: 0.3619
+AUC: 0.6148
