@@ -1,0 +1,67 @@
+# Initial
+Accuracy: 0.8512
+Precision: 0.5000
+Recall: 0.0200
+F1: 0.0385
+AUC: 0.5083
+
+# Changed Date Enrolment to Year only
+
+# Removed Entries with Year of Birth earlier than 1940
+Accuracy: 0.8542
+Precision: 1.0000
+Recall: 0.0200
+F1: 0.0392
+AUC: 0.5100
+
+# Removed Dt_Customer
+Accuracy: 0.8571
+Precision: 0.8333
+Recall: 0.0500
+F1: 0.0943
+AUC: 0.5241
+
+# Tried Different Models
+
+## Naive Bayes
+Accuracy: 0.7679
+Precision: 0.3028
+Recall: 0.4300
+F1: 0.3554
+AUC: 0.6285
+
+## Decision Trees
+Accuracy: 0.7887
+Precision: 0.3158
+Recall: 0.3600
+F1: 0.3364
+AUC: 0.6118
+
+## SVC
+Accuracy: 0.8512
+Precision: 0.5000
+Recall: 0.0300
+F1: 0.0566
+AUC: 0.5124
+
+## KNeighbors k=25
+Accuracy: 0.8512
+Precision: 0.5000
+Recall: 0.0300
+F1: 0.0566
+AUC: 0.5124
+
+# Back to Logistic
+
+## Used MinMaxScaler
+Accuracy: 0.8571
+Precision: 1.0000
+Recall: 0.0400
+F1: 0.0769
+AUC: 0.5200
+
+# 
+# 
+# 
+# 
+# 
