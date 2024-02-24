@@ -1,7 +1,0 @@
-
-
-Code:
-1. Learn to adjust he hyperparameters of every algorithm
-
-2. Additional insight on business
-
