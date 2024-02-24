@@ -115,7 +115,7 @@ Recall: 0.2200
 F1: 0.3188
 AUC: 0.5959
 
-## Deleted Dupes it would be statistically impossible for two Different
+## Deleted Dupes it would be statistically impossible for two or more  Different
 ## people to have lived the same grocery life and life in general (Forgot to retain ID, fix next time)
 Accuracy: 0.8436
 Precision: 0.4583
