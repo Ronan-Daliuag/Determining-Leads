@@ -96,4 +96,54 @@ AUC: 0.6157
 Training set score: 0.8891
 Test set score: 0.1150
 
+Fixed formatting of Model Training with RobustScaler
+LogisticRegression
+Logistic Regression Accuracy: 0.8900
+Logistic Regression Precision: 0.5714
+Logistic Regression Recall: 0.2553
+Logistic Regression F1: 0.3529
+Logistic Regression AUC: 0.6149
+Training set score: 0.8899
+Test set score: 0.8900
+
+Naive Bayes
+Naive Bayes Accuracy: 0.7325
+Naive Bayes Precision: 0.2222
+Naive Bayes Recall: 0.5106
+Naive Bayes F1: 0.3097
+Naive Bayes AUC: 0.6363
+Training set score: 0.7716
+Test set score: 0.7325
+
+DecisionTrees w/Entropy
+Decision Trees Accuracy: 0.8725
+Decision Trees Precision: 0.1667
+Decision Trees Recall: 0.0213
+Decision Trees F1: 0.0377
+Decision Trees AUC: 0.5036
+Training set score: 0.8723
+Test set score: 0.8725
+
+KNN
+K-Nearest Neighbors Accuracy: 0.8700
+K-Nearest Neighbors Precision: 0.3810
+K-Nearest Neighbors Recall: 0.1702
+K-Nearest Neighbors F1: 0.2353
+K-Nearest Neighbors AUC: 0.5667
+Training set score: 0.9193
+Test set score: 0.8700
+
+SVM with default parameters
+SVM Accuracy: 0.8875
+SVM Precision: 0.6667
+SVM Recall: 0.0851
+SVM F1: 0.1509
+SVM AUC: 0.5397
+Training set score: 0.8949
+Test set score: 0.8875
+
+
+
+
+
 
