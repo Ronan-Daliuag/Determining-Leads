@@ -216,6 +216,48 @@ AUC: 0.6740
 
 Training set score: 0.8661
 Test set score: 0.1711
+
+# Without Feature Engineering
+Accuracy: 0.8900
+Precision: 0.7742
+Recall: 0.3871
+F1: 0.5161
+AUC: 0.6835
+
+Training set score: 0.8674
+Test set score: 0.1516
+
+## With Some Feature Engineering
+Accuracy: 0.8900
+Precision: 0.8148
+Recall: 0.3548
+F1: 0.4944
+AUC: 0.6702
+
+Training set score: 0.8716
+Test set score: 0.1711
+
+## MntTotal Only
+Accuracy: 0.8837
+Precision: 0.7692
+Recall: 0.3279
+F1: 0.4598
+AUC: 0.6552
+
+Training set score: 0.8803
+Test set score: 0.1782
+
+## MntTotal with Ratio
+Accuracy: 0.8861
+Precision: 0.8000
+Recall: 0.3279
+F1: 0.4651
+AUC: 0.6566
+
+Training set score: 0.8803
+Test set score: 0.1782
+
+
 # 
 # 
 # 
