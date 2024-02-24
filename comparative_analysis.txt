@@ -48,7 +48,7 @@ Training set score: 0.8949
 Test set score: 0.8875
 
 --------------------------------------------------------------------------------------------------------------------------------------
-StandardScaler - Logistic Regression
+StandardScaler - GridSearchCV for best hyperparameters: Logistic Regression, SVM
 Features: [Income, Household, Total_Spent, Total_Purchases, Total_Visits, Year of Enrollment, Education, Marital Status]
 Logistic Regression Accuracy: 0.8475
 Logistic Regression Precision: 0.5312
@@ -57,3 +57,45 @@ Logistic Regression F1: 0.2787
 Logistic Regression AUC: 0.5790
 Training set score: 0.8692
 Test set score: 0.8475
+
+Naive Bayes Accuracy: 0.7868
+Naive Bayes Precision: 0.3740
+Naive Bayes Recall: 0.5444
+Naive Bayes F1: 0.4434
+Naive Bayes AUC: 0.6880
+Training set score: 0.7890
+Test set score: 0.7868
+
+Decision Tree w/ Gini Accuracy: 0.8319
+Decision Tree w/ Gini Precision: 0.4314
+Decision Tree w/ Gini Recall: 0.2444
+Decision Tree w/ Gini F1: 0.3121
+Decision Tree w/ Gini AUC: 0.5924
+Training set score: 0.8744
+Test set score: 0.8319
+
+Decision Trees w/ Entropy Accuracy: 0.8250
+Decision Trees w/ Entropy Precision: 0.3830
+Decision Trees w/ Entropy Recall: 0.2000
+Decision Trees w/ Entropy F1: 0.2628
+Decision Trees w/ Entropy AUC: 0.5702
+Training set score: 0.8707
+Test set score: 0.8250
+
+k-Nearest Neighbors Accuracy: 0.8198
+k-Nearest Neighbors Precision: 0.3793
+k-Nearest Neighbors Recall: 0.2444
+k-Nearest Neighbors F1: 0.2973
+k-Nearest Neighbors AUC: 0.5853
+Training set score: 0.9094
+Test set score: 0.8198
+
+Support Vector Machines Accuracy: 0.8475
+Support Vector Machines Precision: 0.5385
+Support Vector Machines Recall: 0.1556
+Support Vector Machines F1: 0.2414
+Support Vector Machines AUC: 0.5655
+Training set score: 0.8975
+Test set score: 0.8475
+
+
