@@ -50,3 +50,50 @@ F1: 0.4171
 AUC: 0.6409
 Training set score: 0.8869
 Test set score: 0.1321
+
+Adjusted test_size to 0.2, and encoded Educ and Marital_Status
+Accuracy: 0.8675
+Precision: 0.4643
+Recall: 0.2549
+F1: 0.3291
+AUC: 0.6060
+Training set score: 0.8899
+Test set score: 0.1375
+
+Added MinMaxScaler and hyperparameter optimization
+Accuracy: 0.8700
+Precision: 0.4815
+Recall: 0.2549
+F1: 0.3333
+AUC: 0.6074
+Training set score: 0.8936
+Test set score: 0.1450
+
+Added test_size to 0.3 and random state to 0
+Accuracy: 0.8967
+Precision: 0.5909
+Recall: 0.1970
+F1: 0.2955
+AUC: 0.5901
+Training set score: 0.8863
+Test set score: 0.1300
+
+Removed ID
+Accuracy: 0.8983
+Precision: 0.6087
+Recall: 0.2121
+F1: 0.3146
+AUC: 0.5976
+Training set score: 0.8877
+Test set score: 0.1283
+
+Added C = 10 in LogisticRegression
+Accuracy: 0.8950
+Precision: 0.5484
+Recall: 0.2576
+F1: 0.3505
+AUC: 0.6157
+Training set score: 0.8891
+Test set score: 0.1150
+
+
