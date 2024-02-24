@@ -46,3 +46,14 @@ SVM F1: 0.1509
 SVM AUC: 0.5397
 Training set score: 0.8949
 Test set score: 0.8875
+
+--------------------------------------------------------------------------------------------------------------------------------------
+StandardScaler - Logistic Regression
+Features: [Income, Household, Total_Spent, Total_Purchases, Total_Visits, Year of Enrollment, Education, Marital Status]
+Logistic Regression Accuracy: 0.8475
+Logistic Regression Precision: 0.5312
+Logistic Regression Recall: 0.1889
+Logistic Regression F1: 0.2787
+Logistic Regression AUC: 0.5790
+Training set score: 0.8692
+Test set score: 0.8475
