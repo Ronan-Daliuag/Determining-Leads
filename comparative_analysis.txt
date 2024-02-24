@@ -90,4 +90,126 @@ Support Vector Machines AUC: 0.5655
 Training set score: 0.8975
 Test set score: 0.8475
 
+Introduction of Oversampling using SMOTE for all algorithms + 
+Add All Features except for ID. 
++ Use Recall as metric for hyperparameters
+NOTE: SVM is commented out for now. Ambagal eh
+Logistic Regression Accuracy: 0.7470
+Logistic Regression Precision: 0.3427
+Logistic Regression Recall: 0.6778
+Logistic Regression F1: 0.4552
+Logistic Regression AUC: 0.7188
+Training set score: 0.7087
+Test set score: 0.7470
+
+Naive Bayes Accuracy: 0.7227
+Naive Bayes Precision: 0.2866
+Naive Bayes Recall: 0.5222
+Naive Bayes F1: 0.3701
+Naive Bayes AUC: 0.6410
+Training set score: 0.7400
+Test set score: 0.7227
+
+Decision Tree Accuracy: 0.7851
+Decision Tree Precision: 0.3229
+Decision Tree Recall: 0.3444
+Decision Tree F1: 0.3333
+Decision Tree AUC: 0.6055
+Training set score: 0.9948
+Test set score: 0.7851
+
+k-Nearest Neighbors Accuracy: 0.6603
+k-Nearest Neighbors Precision: 0.2323
+k-Nearest Neighbors Recall: 0.5111
+k-Nearest Neighbors F1: 0.3194
+k-Nearest Neighbors AUC: 0.5995
+Training set score: 0.9970
+Test set score: 0.6603
+
+SVM: NaN
+
+Added new features Customer_Enrollmaent and Average Purchase NOTE: SVM IS DEFAULT
+Logistic Regression Accuracy: 0.6863
+Logistic Regression Precision: 0.2802
+Logistic Regression Recall: 0.6444
+Logistic Regression F1: 0.3906
+Logistic Regression AUC: 0.6692
+Training set score: 0.7430
+Test set score: 0.6863
+
+Naive Bayes Accuracy: 0.7140
+Naive Bayes Precision: 0.2754
+Naive Bayes Recall: 0.5111
+Naive Bayes F1: 0.3580
+Naive Bayes AUC: 0.6313
+Training set score: 0.7407
+Test set score: 0.7140
+
+Decision Tree Accuracy: 0.7730
+Decision Tree Precision: 0.2796
+Decision Tree Recall: 0.2889
+Decision Tree F1: 0.2842
+Decision Tree AUC: 0.5757
+Training set score: 0.9948
+Test set score: 0.7730
+
+k-Nearest Neighbors Accuracy: 0.6707
+k-Nearest Neighbors Precision: 0.2222
+k-Nearest Neighbors Recall: 0.4444
+k-Nearest Neighbors F1: 0.2963
+k-Nearest Neighbors AUC: 0.5785
+Training set score: 0.9970
+Test set score: 0.6707
+
+Support Vector Machines Accuracy: 0.7435
+Support Vector Machines Precision: 0.2836
+Support Vector Machines Recall: 0.4222
+Support Vector Machines F1: 0.3393
+Support Vector Machines AUC: 0.6125
+Training set score: 0.6326
+Test set score: 0.7435
+
+Try RandomOverSampler and new way of declaring X
+Logistic Regression Accuracy: 0.6863
+Logistic Regression Precision: 0.2844
+Logistic Regression Recall: 0.6667
+Logistic Regression F1: 0.3987
+Logistic Regression AUC: 0.6783
+Training set score: 0.7235
+Test set score: 0.6863
+
+Naive Bayes Accuracy: 0.7140
+Naive Bayes Precision: 0.2754
+Naive Bayes Recall: 0.5111
+Naive Bayes F1: 0.3580
+Naive Bayes AUC: 0.6313
+Training set score: 0.7407
+Test set score: 0.7140
+
+Decision Tree Accuracy: 0.8146
+Decision Tree Precision: 0.3692
+Decision Tree Recall: 0.2667
+Decision Tree F1: 0.3097
+Decision Tree AUC: 0.5912
+Training set score: 0.9525
+Test set score: 0.8146
+
+k-Nearest Neighbors Accuracy: 0.7192
+k-Nearest Neighbors Precision: 0.2273
+k-Nearest Neighbors Recall: 0.3333
+k-Nearest Neighbors F1: 0.2703
+k-Nearest Neighbors AUC: 0.5619
+Training set score: 0.9970
+Test set score: 0.7192
+
+Support Vector Machines Accuracy: 0.7539
+Support Vector Machines Precision: 0.2969
+Support Vector Machines Recall: 0.4222
+Support Vector Machines F1: 0.3486
+Support Vector Machines AUC: 0.6187
+Training set score: 0.6274
+Test set score: 0.7539
+
+
+
 
