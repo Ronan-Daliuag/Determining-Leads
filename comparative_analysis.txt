@@ -211,5 +211,139 @@ Training set score: 0.6274
 Test set score: 0.7539
 
 
+Go back to SMOTE, random_state = 42, and adjust hyperparameters to scoring = precision. Also introduced SMOTE to DecisionTrees
+Also removed tons of features. and simplest optimization for SVM
+X = features.drop(columns=['Response', 'Kidhome', 'Teenhome', 'Recency', 'MntWines', 'MntFruits', 'MntMeatProducts', 'MntFishProducts', 
+    'MntSweetProducts', 'MntGoldProds', 'NumDealsPurchases', 'NumWebPurchases', 'NumCatalogPurchases', 'NumStorePurchases', 
+    'NumWebVisitsMonth', 'Complain'], axis=1)[[
+    'Income', 'Age', 'Customer_Enrollment', 'Household', 'Total_Spent', 'Total_Purchases', 
+    'Total_Visits', 'Average_Purchase', 'Education_2n Cycle', 'Education_Basic', 'Education_Graduation', 
+    'Education_Master', 'Education_PhD', 'Marital_Divorced', 'Marital_Married', 'Marital_Single', 'Marital_Together', 'Marital_Widow'
+]]
+
+Logistic Regression Accuracy: 0.7140
+Logistic Regression Precision: 0.2843
+Logistic Regression Recall: 0.7000
+Logistic Regression F1: 0.4043
+Logistic Regression AUC: 0.7081
+Training set score: 0.7281
+Test set score: 0.7140
+
+Naive Bayes Accuracy: 0.7660
+Naive Bayes Precision: 0.3050
+Naive Bayes Recall: 0.5375
+Naive Bayes F1: 0.3891
+Naive Bayes AUC: 0.6702
+Training set score: 0.7600
+Test set score: 0.7660
+
+Decision Tree Accuracy: 0.7972
+Decision Tree Precision: 0.3131
+Decision Tree Recall: 0.3875
+Decision Tree F1: 0.3464
+Decision Tree AUC: 0.6253
+Training set score: 0.9447
+Test set score: 0.7972
+
+k-Nearest Neighbors Accuracy: 0.6950
+k-Nearest Neighbors Precision: 0.2333
+k-Nearest Neighbors Recall: 0.5250
+k-Nearest Neighbors F1: 0.3231
+k-Nearest Neighbors AUC: 0.6237
+Training set score: 0.9965
+Test set score: 0.6950
+
+Support Vector Machines Accuracy: 0.7712
+Support Vector Machines Precision: 0.2797
+Support Vector Machines Recall: 0.4125
+Support Vector Machines F1: 0.3333
+Support Vector Machines AUC: 0.6207
+Training set score: 0.6303
+Test set score: 0.7712
+
+Added back all features plus updated overfitting metric to precision
+Logistic Regression Accuracy: 0.7123
+Logistic Regression Precision: 0.2871
+Logistic Regression Recall: 0.7250
+Logistic Regression F1: 0.4113
+Logistic Regression AUC: 0.7176
+Training set score: 0.7416
+Test set score: 0.2871
+
+Naive Bayes Accuracy: 0.7279
+Naive Bayes Precision: 0.2579
+Naive Bayes Recall: 0.5125
+Naive Bayes F1: 0.3431
+Naive Bayes AUC: 0.6375
+Training set score: 0.7081
+Test set score: 0.2579
+
+Decision Trees Accuracy: 0.8198
+Decision Trees Precision: 0.3983
+Decision Trees Recall: 0.5875
+Decision Trees F1: 0.4747
+Decision Trees AUC: 0.7223
+Training set score: 0.9945
+Test set score: 0.3983
+
+k-Nearest Neighbors Accuracy: 0.7123
+k-Nearest Neighbors Precision: 0.2584
+k-Nearest Neighbors Recall: 0.5750
+k-Nearest Neighbors F1: 0.3566
+k-Nearest Neighbors AUC: 0.6547
+Training set score: 1.0000
+Test set score: 0.2584
+
+Support Vector Machines Accuracy: 0.7695
+Support Vector Machines Precision: 0.2773
+Support Vector Machines Recall: 0.4125
+Support Vector Machines F1: 0.3317
+Support Vector Machines AUC: 0.6197
+Training set score: 0.7117
+Test set score: 0.2773
+
+Try RandomOverSampler
+Logistic Regression Accuracy: 0.7036
+Logistic Regression Precision: 0.2802
+Logistic Regression Recall: 0.7250
+Logistic Regression F1: 0.4042
+Logistic Regression AUC: 0.7126
+Training set score: 0.7120
+Test set score: 0.2802
+
+Naive Bayes Accuracy: 0.7036
+Naive Bayes Precision: 0.2458
+Naive Bayes Recall: 0.5500
+Naive Bayes F1: 0.3398
+Naive Bayes AUC: 0.6392
+Training set score: 0.6738
+Test set score: 0.2458
+
+Decision Trees Accuracy: 0.8198
+Decision Trees Precision: 0.3667
+Decision Trees Recall: 0.4125
+Decision Trees F1: 0.3882
+Decision Trees AUC: 0.6489
+Training set score: 0.9930
+Test set score: 0.3667
+
+k-Nearest Neighbors Accuracy: 0.7504
+k-Nearest Neighbors Precision: 0.2714
+k-Nearest Neighbors Recall: 0.4750
+k-Nearest Neighbors F1: 0.3455
+k-Nearest Neighbors AUC: 0.6349
+Training set score: 0.9930
+Test set score: 0.2714
+
+Support Vector Machines Accuracy: 0.7626
+Support Vector Machines Precision: 0.2683
+Support Vector Machines Recall: 0.4125
+Support Vector Machines F1: 0.3251
+Support Vector Machines AUC: 0.6157
+Training set score: 0.6880
+Test set score: 0.2683
+
+
+
 
 
