@@ -1,0 +1,36 @@
+X = features.drop(columns=['Response'], axis=1).iloc[:,1:][['Kidhome', 'Teenhome', 'Recency', 'MntWines', 'MntFruits', 
+                                                 'MntMeatProducts', 'MntFishProducts', 'MntSweetProducts', 
+                                                 'MntGoldProds', 'NumDealsPurchases', 'NumWebPurchases', 'NumCatalogPurchases', 
+                                                 'NumStorePurchases', 'NumWebVisitsMonth', 'Complain', 
+                                                 'Age', 'Customer_Enrollment', 'Household', 'Total_Spent', 
+                                                 'Total_Purchases', 'Total_Visits', 'Average_Purchase', 
+                                                 'Education_2n Cycle', 'Education_Basic', 'Education_Graduation', 
+                                                 'Education_Master', 'Education_PhD', 'Marital_Divorced', 
+                                                 'Marital_Married', 'Marital_Single', 'Marital_Together', 'Marital_Widow',
+                                                 'Income']]
+
+Use RobustScaler instead of StandardScaler
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
+| Algorithm                | Logistic Regression | Naive Bayes | Decision Tree | k-Nearest Neighbors | Support Vector Machines |
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
+| Accuracy                 | 0.8925              | 0.7279      | 0.8163        | 0.8250              | 0.8977                  |
+| Precision                | 0.6607              | 0.2579      | 0.3917        | 0.4019              | 0.6842                  |
+| Recall                   | 0.4625              | 0.5125      | 0.5875        | 0.5375              | 0.4875                  |
+| F1                       | 0.5441              | 0.3431      | 0.4700        | 0.4599              | 0.5693                  |
+| AUC                      | 0.7121              | 0.6375      | 0.7203        | 0.7044              | 0.7256                  |
+| Precision Training Score | 0.9548              | 0.7081      | 0.9786        | 0.9362              | 0.9544                  |
+| Precision Test Score     | 0.6607              | 0.2579      | 0.3917        | 0.4019              | 0.6842                  |
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
+
+If we used all features
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
+| Algorithm                | Logistic Regression | Naive Bayes | Decision Tree | k-Nearest Neighbors | Support Vector Machines |
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
+| Accuracy                 | 0.8631              | 0.7418      | 0.7834        | 0.8284              | 0.8752                  |
+| Precision                | 0.5091              | 0.2745      | 0.3109        | 0.3733              | 0.6250                  |
+| Recall                   | 0.3500              | 0.5250      | 0.4625        | 0.3500              | 0.2500                  |
+| F1                       | 0.4148              | 0.3605      | 0.3719        | 0.3613              | 0.3571                  |
+| AUC                      | 0.6478              | 0.6508      | 0.6488        | 0.6277              | 0.6129                  |
+| Precision Training Score | 0.9351              | 0.7260      | 0.9839        | 1.0000              | 0.9831                  |
+| Precision Test Score     | 0.5091              | 0.2745      | 0.3109        | 0.3733              | 0.6250                  |
++--------------------------+---------------------+-------------+---------------+---------------------+-------------------------+
