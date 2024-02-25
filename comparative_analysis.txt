@@ -343,6 +343,138 @@ Support Vector Machines AUC: 0.6157
 Training set score: 0.6880
 Test set score: 0.2683
 
+Introduce Scaling after Oversampling for LogReg, kNN and SVM
+Logistic Regression Accuracy: 0.7574
+Logistic Regression Precision: 0.3370
+Logistic Regression Recall: 0.7750
+Logistic Regression F1: 0.4697
+Logistic Regression AUC: 0.7648
+Training set score: 0.7918
+Test set score: 0.3370
+
+Naive Bayes Accuracy: 0.7036
+Naive Bayes Precision: 0.2458
+Naive Bayes Recall: 0.5500
+Naive Bayes F1: 0.3398
+Naive Bayes AUC: 0.6392
+Training set score: 0.6738
+Test set score: 0.2458
+
+Decision Trees Accuracy: 0.8042
+Decision Trees Precision: 0.3263
+Decision Trees Recall: 0.3875
+Decision Trees F1: 0.3543
+Decision Trees AUC: 0.6294
+Training set score: 0.9904
+Test set score: 0.3263
+
+k-Nearest Neighbors Accuracy: 0.7938
+k-Nearest Neighbors Precision: 0.3511
+k-Nearest Neighbors Recall: 0.5750
+k-Nearest Neighbors F1: 0.4360
+k-Nearest Neighbors AUC: 0.7020
+Training set score: 0.9930
+Test set score: 0.3511
+
+Support Vector Machines Accuracy: 0.8527
+Support Vector Machines Precision: 0.4590
+Support Vector Machines Recall: 0.3500
+Support Vector Machines F1: 0.3972
+Support Vector Machines AUC: 0.6418
+Training set score: 0.9922
+Test set score: 0.4590
+
+Reintroduce SMOTE
+Logistic Regression Accuracy: 0.8925
+Logistic Regression Precision: 0.6607
+Logistic Regression Recall: 0.4625
+Logistic Regression F1: 0.5441
+Logistic Regression AUC: 0.7121
+Training set score: 0.9548
+Test set score: 0.6607
+
+Naive Bayes Accuracy: 0.7279
+Naive Bayes Precision: 0.2579
+Naive Bayes Recall: 0.5125
+Naive Bayes F1: 0.3431
+Naive Bayes AUC: 0.6375
+Training set score: 0.7081
+Test set score: 0.2579
+
+Decision Trees Accuracy: 0.8198
+Decision Trees Precision: 0.3983
+Decision Trees Recall: 0.5875
+Decision Trees F1: 0.4747
+Decision Trees AUC: 0.7223
+Training set score: 0.9786
+Test set score: 0.3983
+
+k-Nearest Neighbors Accuracy: 0.8250
+k-Nearest Neighbors Precision: 0.4019
+k-Nearest Neighbors Recall: 0.5375
+k-Nearest Neighbors F1: 0.4599
+k-Nearest Neighbors AUC: 0.7044
+Training set score: 0.9362
+Test set score: 0.4019
+
+Support Vector Machines Accuracy: 0.8977
+Support Vector Machines Precision: 0.6842
+Support Vector Machines Recall: 0.4875
+Support Vector Machines F1: 0.5693
+Support Vector Machines AUC: 0.7256
+Training set score: 0.9544
+Test set score: 0.6842
+
+X = features.drop(columns=['Response'], axis=1).iloc[:,1:][['Complain', 
+                                                 'Age', 'Customer_Enrollment', 'Household', 'Total_Spent', 
+                                                 'Total_Purchases', 'Total_Visits', 'Average_Purchase', 
+                                                 'Education_2n Cycle', 'Education_Basic', 'Education_Graduation', 
+                                                 'Education_Master', 'Education_PhD', 'Marital_Divorced', 
+                                                 'Marital_Married', 'Marital_Single', 'Marital_Together', 'Marital_Widow',
+                                                 'Income']]
+
+Logistic Regression Accuracy: 0.8631
+Logistic Regression Precision: 0.5091
+Logistic Regression Recall: 0.3500
+Logistic Regression F1: 0.4148
+Logistic Regression AUC: 0.6478
+Training set score: 0.9351
+Test set score: 0.5091
+
+Naive Bayes Accuracy: 0.7418
+Naive Bayes Precision: 0.2745
+Naive Bayes Recall: 0.5250
+Naive Bayes F1: 0.3605
+Naive Bayes AUC: 0.6508
+Training set score: 0.7260
+Test set score: 0.2745
+
+Decision Trees Accuracy: 0.7903
+Decision Trees Precision: 0.3186
+Decision Trees Recall: 0.4500
+Decision Trees F1: 0.3731
+Decision Trees AUC: 0.6475
+Training set score: 0.9593
+Test set score: 0.3186
+
+k-Nearest Neighbors Accuracy: 0.8284
+k-Nearest Neighbors Precision: 0.3733
+k-Nearest Neighbors Recall: 0.3500
+k-Nearest Neighbors F1: 0.3613
+k-Nearest Neighbors AUC: 0.6277
+Training set score: 1.0000
+Test set score: 0.3733
+
+Support Vector Machines Accuracy: 0.8752
+Support Vector Machines Precision: 0.6250
+Support Vector Machines Recall: 0.2500
+Support Vector Machines F1: 0.3571
+Support Vector Machines AUC: 0.6129
+Training set score: 0.9831
+Test set score: 0.6250
+
+
+
 
 
 
